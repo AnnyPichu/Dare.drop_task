@@ -62,16 +62,15 @@ input {
 
     padding: 0px 50px 0px 12px;
 }
-
+/*adjust eye*/
 div i {
     font-size: 30px;
     cursor: pointer;
 
     position: absolute;
-    right: 035%;
+    right: ;
     margin: 12px auto;
     color: #950faf;
-    text-shadow: 0 0 15px #000000;
     
 }
 
