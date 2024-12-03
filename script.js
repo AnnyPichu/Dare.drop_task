@@ -1,15 +1,16 @@
-const email = document.getElementById('email');
-const password = document.getElementById('password');
+const user = document.getElementById('user');
+const post = document.getElementById('post');
 const form = document.getElementById('form');
 
-const emailError= document.getElementById('emailError');
+const userError= document.getElementById('userError');
 
 form.addEventListener('submit', (e) => 
 {
-    if (email.value === '' || email.value == null) 
+    if (user.value === '' || user.value == null) 
     {
         e.preventDefault();
-        emailError.innerHTML = "Email is required";
+        userError.innerHTML = "User is required";
     }
 
 })
+

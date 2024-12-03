@@ -3,32 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Dare Drop</title>
 </head>
 <body>
-    <div id="container">
-        <form id="form" action="/" method="GET">
-            <div id="daredroplogo">
-                <img src="./assets/daredrop01.png" alt="Dare Drop Logo"> 
+    <div class="container">
+        <div class="title">Dare moment:
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="detail">User</span>
+                    <input type="text" placeholder="You user" required>
+                </div>
+                <div class="input-box">
+                    <span class="detail">Details
+                    <input type="text" placeholder="Brief explanation" required>
+                </div>
+                <div class="post-box">
+                    <span class="Post">Post</span>
+                    <input type="text" placeholder="Your link" required>
+                </div>
             </div>
-            <div id="singin">
-            <p>Sing in</p>
+                <div class="platform-details">
+                    <input type="radio" name="platform" id="dot-1">
+                    <input type="radio" name="platform" id="dot-2">
+                    <input type="radio" name="platform" id="dot-3">
+                    <span class="platform-title">Platform</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="platform">Twitch</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="platform">Youtube</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="platform">TikTok</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" name="" value="Register" >
+
+                </div>
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input id="email" email="email" type="text">
-            </div>
-            <span id="emailError"></span>
-            <div id="passwordbox">
-                <label for="password">Password</label>
-                <input id="password" password="password" type="text">
-                <i class="bi bi-eye-fill"></i>
-            </div>
-            <div id="button">
-        <button id="singinButton" type="login">Sing in</button>
-        </div>
+        </form>
     </div>
 </body>
 </html>
